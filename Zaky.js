@@ -2037,7 +2037,8 @@ sendMess(_.jid, `${body.slice(7)}`)
 }
 reply('Sukses Broadcast Text')
 }
-break
+break
+
 case 'bc':
              if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
              if (args.length < 1) return reply('teks?')
@@ -3418,19 +3419,19 @@ ${gaya2} ${prefix}self
 ┗━━━━━━━━━━━>`
 teks =
 `_Beri Jeda Bot Selama 5Detik_`
-Zaky.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`,footerText: `${teks}`, buttons: [{ buttonId: `${prefix}sewa`, buttonText: { displayText: '[💸]Sewa' }, type: 1 },{ buttonId: `${prefix}donasi`, buttonText: { displayText: '[💰]DONASI' }, type: 1 },{ buttonId: `${prefix}command`, buttonText: { displayText: '[🚧] COMMAND' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Zaky.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`,footerText: `${teks}`, buttons: [{ buttonId: `${prefix}sewa`, buttonText: { displayText: '[💸]Sewa' }, type: 1 },{ buttonId: `${prefix}donasi`, buttonText: { displayText: '[💰]DONASI' }, type: 1 },{ buttonId: `${prefix}command`, buttonText: { displayText: '[💢] SIMPEL MENU' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 const sound = fs.readFileSync('./media/audio.mp3')
 Zaky.sendMessage(from, sound, audio, { mimetype: 'audio/mp4', ptt: true })
 break
 
 
-//━━━━━━━━━━━━━━━[ AKHIR DARI SEMUA FITUR ]━━━━━━━━━━━━━━━━━//
+//━━━━━━━━━━━━━━━[ GK USAH DIUBAH ]━━━━━━━━━━━━━━━━━//
             case 'leave': {
                 if (!isOwner && !mek.key.fromMe) return
                 await Zaky.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
             }
             break
-//━━━━━━━━━━━━━━━[ AKHIR DARI SEMUA FITUR ]━━━━━━━━━━━━━━━━━//
+//━━━━━━━━━━━━━━━[ FITUR NULIS ]━━━━━━━━━━━━━━━━━//
 case 'nulis':
 reply(`*Example*\n${prefix}nuliskiri\n${prefix}nuliskanan\n${prefix}foliokiri\n${prefix}foliokanan`)
 break
