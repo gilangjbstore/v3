@@ -41,7 +41,7 @@ Edit Nomor Owner DLL `'./settings/setting.json'`
 # My Sosial
 - [Group ](-)
 - [Tik Tok ](-)
-- [Whatsapp ](https://wa.me/62858779027560)
+- [Whatsapp ](https://wa.me/6285846262413)
 
 # Thanks To
 * [`ORTU`](-)
