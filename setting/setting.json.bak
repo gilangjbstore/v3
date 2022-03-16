@@ -1,9 +1,9 @@
 {
 "self": false,
-"autoread": true,
+"autoread": false,
 "autoketik": false,
 "autovn": false,
-"OwnerNumber": "6283829234211",
+"OwnerNumber": "6281563834902",
 "OwnerName": "BagasZ",
 "BotName": "BagasZ Botz",
 "session": "session",
